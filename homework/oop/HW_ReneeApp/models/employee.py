@@ -12,25 +12,5 @@ class Employee(Model):
         self.department_type = department_type
         self.department_id = department_id
 
-    # def __str__(self):
-    #     return f'Emp(id={self.id}, email={self.email}, name={self.name}, ' \
-    #            f'dep_type={self.department_type} dep_id={self.department_id})'
-
-
-
-    # def _generate_dict(self):
-    #     return {
-    #         'id': self.id,
-    #         'email': self.email,
-    #         'name': self.name,
-    #         'department_type': self.department_type,
-    #         'department_id': self.department_id
-    #     }
-
-    # def save(self):
-    #     employees_in_dict_format = self._generate_dict()
-    #     employees = self.get_file_data(self.file)
-    #     employees.append(employees_in_dict_format)
-    #     self.save_to_file(employees)
 
 

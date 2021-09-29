@@ -92,4 +92,3 @@ class Menu:
     @staticmethod
     def quit():
         sys.exit(0)
-

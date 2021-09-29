@@ -15,7 +15,8 @@ class Model(ABC):
         self.save_to_file(obj)
 
     def _generate_dict(self):
-        return {attr: getattr(self, attr) for attr in vars(self)}
+        # return {attr: getattr(self, attr) for attr in vars(self)}
+        return self.__dict__
 
     @classmethod
     def get_by_id(cls, id):

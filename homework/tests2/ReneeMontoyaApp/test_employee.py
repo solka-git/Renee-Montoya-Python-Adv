@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-
+from models import Employee, Plant
 
 
 class TestEmployee(unittest.TestCase):
